@@ -1,0 +1,61 @@
+.animate-container {
+  position: relative;
+	height: 250px;
+	width: 500px;
+  margin-left: 50%;
+  left: -200px;
+  
+  & > div {
+    position: absolute;
+    display: inline-block;
+    background: #03a9f4;
+    height: 100%;
+    margin-left: 4px;
+    bottom: 0;
+    // animation: wave 3s ease-in-out infinite;
+  }
+
+  .animate-2 {
+    animation-delay: 0.1s;
+  }
+
+  .animate-3 {
+    animation-delay: 0.2s;
+  }
+
+  .animate-4 {
+    animation-delay: 0.3s;
+  }
+
+  .animate-5 {
+    animation-delay: 0.4s;
+  }
+
+  .animate-6 {
+    animation-delay: 0.5s;
+  }
+}
+
+
+@keyframes wave {
+	0%,
+	100% {
+		background: #03A9F4;
+	}
+	16.67% {
+		background: #FF5722;
+	}
+	33.33% {
+		background: #FF5252;
+	}
+	50% {
+		background: #E91E63;
+	}
+	66.67% {
+		background: #9C27B0;
+	}
+	83.34% {
+		background: #673AB7;
+	}
+}
+
