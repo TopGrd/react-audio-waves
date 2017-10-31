@@ -53,7 +53,7 @@ class Particles extends Component {
   }
 
   createParticles() {
-    const { number, data } = this.props
+    const { number } = this.props
     for (let i = 0; i < number; i++) {
       this.particles.push({
         radius: this.random(this.minRadius, this.maxRadius),
